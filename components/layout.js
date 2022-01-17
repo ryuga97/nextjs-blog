@@ -10,9 +10,10 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        // お気に入りアイコン(ファビコン)を指定
         <link rel="icon" href="/favicon.ico" />
         <meta
-          name="description"
+          name="description"    // 文書の概要を記述
           content="Learn how to build a personal website using Next.js"
         />
         <meta
